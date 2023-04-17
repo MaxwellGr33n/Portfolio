@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   
   return (
-    <div>
+    <div className="App">
       <div className="flex justify-between items-center px-4 py-3 bg-gray-800 w-full">
         <h1 className="text-white text-lg font-bold">Max Green's Portfolio</h1>
         <div className="flex space-x-4">
