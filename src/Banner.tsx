@@ -13,7 +13,7 @@ export default function Banner() {
     
     return (
       <div className="sticky top-0 bg-neutral-50 shadow-md z-10">
-        <div className="flex justify-between items-center px-4 py-3 w-full">
+        <div className="flex justify-between items-center px-4 py-2 w-full">
             <a href="#"><img src="public/e6d71efbc20bbbc7b0e432993a454377-sticker.png" alt="Max Green" height="50" width="50" /></a>
             <div className="flex space-x-4">
                 <div className="flex lg:hidden">
