@@ -4,10 +4,10 @@ import Hero from "./Hero"
 function App() {
   
   return (
-    <div>
+    <>
       <Banner />
       <Hero />
-    </div>
+    </>
   )
 }
 
