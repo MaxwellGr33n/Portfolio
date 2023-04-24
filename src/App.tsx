@@ -1,6 +1,6 @@
-import Banner from "./Banner"
-import Hero from "./Hero"
-import TechStack from "./TechStack"
+import Banner from "./components/Banner"
+import Hero from "./components/Hero"
+import TechStack from "./components/TechStack"
 
 function App() {
   
