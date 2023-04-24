@@ -1,5 +1,6 @@
 import Banner from "./Banner"
 import Hero from "./Hero"
+import TechStack from "./TechStack"
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <>
       <Banner />
       <Hero />
+      <TechStack />
     </>
   )
 }
