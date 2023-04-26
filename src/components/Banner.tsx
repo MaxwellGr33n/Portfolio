@@ -14,7 +14,7 @@ export default function Banner() {
     return (
       <div className="sticky top-0 bg-neutral-50 shadow-md z-10">
         <div className="flex justify-between items-center px-4 w-full">
-            <a href="#" className='pb-3 sm:pl-2'><img src="public/e6d71efbc20bbbc7b0e432993a454377-sticker.png" alt="Max Green" height="60" width="60" /></a>
+            <a href="#" className='pb-3 sm:pl-2'><img src="src/assets/e6d71efbc20bbbc7b0e432993a454377-sticker.png" alt="Max Green" height="60" width="60" /></a>
             <div className="flex space-x-4">
                 <div className="flex lg:hidden">
                     <button
@@ -38,7 +38,8 @@ export default function Banner() {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                     <a href="#" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Your Company</span>
+                        <img src='src/assets/e6d71efbc20bbbc7b0e432993a454377-sticker.png' height="60px" width="60px"></img>
+                        <span className="sr-only">Max Green</span>
                     </a>
                     <button
                         type="button"
