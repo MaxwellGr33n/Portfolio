@@ -2,8 +2,8 @@ export default function TechStack() {
     return (
 
     <section>
-        <div className='grid grid-cols-2 max-h-screen'>
-            <div className='grid gap-3 grid-cols-2 md:grid-cols-3 md:gap-4 max-w-4axl p-4 md:pl-10'>
+        <div className='flex justify-between px-5 py-2 sm:p-10'>
+            <div className='grid gap-3 grid-cols-2 lg:grid-cols-3 md:gap-4 max-w-sm lg:max-w-4xl'>
                 <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
                     <div className='bg-neutral-50 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden'>
                         <div className="flex justify-center px-3 pt-3 lg:pt-4 xl:pt-5">
@@ -41,7 +41,7 @@ export default function TechStack() {
                         <div className="flex justify-center px-3 pt-3">
                             <img src="src/assets/node.svg" alt="Node.js" height="90%" width="90%" />
                         </div>
-                        <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl lg:pt-1 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">Node.js</p>
+                        <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">Node.js</p>
                     </div>
                 </a>
                 <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
@@ -53,9 +53,9 @@ export default function TechStack() {
                     </div>
                 </a>
             </div>
-            <div className='flex flex-col self-center px-3 xs:px-10'>
-                <h1 className='text-blue-800 font-semibold text-xl sm:text-4xl xl:text-6xl'>Current tech stack.</h1>
-                <p className='text-blue-800 text-xs md:text-lg lg:text-3xl pt-2 sm:pt-6'>My stack focuses on blazing fast web design. Using modern frameworks and libraries, combined with a fundamental understanding of coding concepts and design conventions. </p>
+            <div className='self-center max-w-2xl pl-4 sm:pl-10'>
+                <h1 className='text-blue-800 font-semibold text-2xl sm:text-5xl 2xl:text-6xl max-w-fit'>Current tech stack.</h1>
+                <p className='text-blue-800 text-xs sm:text-lg lg:text-2xl 2xl:text-3xl pt-2 sm:pt-6 w-auto'>My stack focuses on blazing fast web design. Using modern frameworks and libraries, combined with a fundamental understanding of coding concepts and design conventions. </p>
             </div>
         </div>
     </section>
