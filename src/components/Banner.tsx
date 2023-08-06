@@ -3,12 +3,14 @@ import { Link } from 'react-scroll'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
+// Navigation items
 const navigation = [
   { name: 'About Me', to: 'About' },
   { name: 'Projects', to: 'project1' },
 ]
 
 export default function Banner(): JSX.Element {
+  // State to manage mobile menu open/close
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
