@@ -5,9 +5,17 @@
 body {
   position: relative;
   font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
 }
 
-@media screen and (max-width: 667px) {
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(17 24 39);
+    color: #fafafa;
+  }
+}
+
+@media screen {
   body {
     overflow-x: hidden !important;
   }
