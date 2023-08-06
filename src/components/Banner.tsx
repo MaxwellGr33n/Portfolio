@@ -12,7 +12,7 @@ export default function Banner(): JSX.Element {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="sticky top-0 bg-neutral-50 dark:bg-gray-900 shadow-md z-10">
+    <div className="sticky top-0 bg-neutral-50 dark:bg-gray-900 shadow-md z-20">
       <div className="flex justify-between items-center px-4 w-full">
         <a href="" className="pb-3 sm:pl-2">
           <img
@@ -47,7 +47,7 @@ export default function Banner(): JSX.Element {
                 smooth={true}
                 offset={50}
                 duration={500}
-                className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-900 hover:bg-neutral-100 dark:text-neutral-50 dark:bg-gray-900 dark:hover:bg-gray-950 hover:shadow-md focus:shadow-md"
+                className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-900 hover:bg-neutral-100 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
               >
                 {item.name}
               </Link>
@@ -58,7 +58,7 @@ export default function Banner(): JSX.Element {
               onClick={() => {
                 setMobileMenuOpen(false)
               }}
-              className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-900 hover:bg-neutral-100 dark:text-neutral-50 dark:bg-gray-900 dark:hover:bg-gray-950 hover:shadow-md focus:shadow-md"
+              className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-900 hover:bg-neutral-100 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
               rel="noreferrer"
             >
               Resume
@@ -71,7 +71,7 @@ export default function Banner(): JSX.Element {
             onClose={setMobileMenuOpen}
           >
             <div className="fixed inset-0 z-50" />
-            <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-neutral-50 dark:text-neutral-50 dark:bg-gray-900 dark:hover:bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-neutral-50 dark:text-neutral-50 dark:bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="" className="-m-1.5 p-1.5">
                   <img
@@ -106,7 +106,7 @@ export default function Banner(): JSX.Element {
                         onClick={() => {
                           setMobileMenuOpen(false)
                         }}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-neutral-50 dark:bg-gray-900 dark:hover:bg-gray-950"
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900"
                       >
                         {item.name}
                       </Link>
@@ -117,7 +117,7 @@ export default function Banner(): JSX.Element {
                       onClick={() => {
                         setMobileMenuOpen(false)
                       }}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-neutral-50 dark:text-neutral-50 dark:bg-gray-900 dark:hover:bg-gray-950"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-neutral-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900"
                     >
                       Resume
                     </a>
