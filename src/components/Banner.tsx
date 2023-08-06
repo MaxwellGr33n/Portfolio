@@ -113,7 +113,7 @@ export default function Banner(): JSX.Element {
                     ))}
                     <a
                       href="https://drive.google.com/file/d/13WBy0HqH6rgxCJ6nVieAsLzeQ4xpwcc9/view?usp=share_link"
-                      target=""
+                      target="_blank"
                       onClick={() => {
                         setMobileMenuOpen(false)
                       }}
