@@ -47,7 +47,7 @@ export default function Banner(): JSX.Element {
                 smooth={true}
                 offset={50}
                 duration={500}
-                className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-900 hover:bg-neutral-100 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
+                className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-900 bg-white hover:bg-neutral-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
               >
                 {item.name}
               </Link>
@@ -58,7 +58,7 @@ export default function Banner(): JSX.Element {
               onClick={() => {
                 setMobileMenuOpen(false)
               }}
-              className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-900 hover:bg-neutral-100 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
+              className="text-sm font-semibold leading-6 px-4 py-1 rounded-full text-gray-90 bg-white hover:bg-neutral-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
               rel="noreferrer"
             >
               Resume
@@ -106,7 +106,7 @@ export default function Banner(): JSX.Element {
                         onClick={() => {
                           setMobileMenuOpen(false)
                         }}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900"
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 bg-neutral-100 dark:text-neutral-50 dark:bg-gray-800"
                       >
                         {item.name}
                       </Link>
@@ -117,7 +117,7 @@ export default function Banner(): JSX.Element {
                       onClick={() => {
                         setMobileMenuOpen(false)
                       }}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-neutral-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 bg-neutral-100 dark:text-neutral-50 dark:bg-gray-800"
                     >
                       Resume
                     </a>

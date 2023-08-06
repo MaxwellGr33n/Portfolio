@@ -8,7 +8,7 @@ export default function Projects(): JSX.Element {
       <section id="project1">
         <DividerTop />
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-b from-black to-blue-800">
-          <div className="flex justify-center items-center bg-neutral-50 dark:bg-gray-800 shadow-lg rounded-xl w-4/6 h-auto">
+          <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-4/6 h-auto">
             <h1 className="text-blue-800 dark:text-neutral-50 p-6 sm:p-14 text-xl lg:text-4xl">
               Project - This is a placeholder
             </h1>
@@ -56,7 +56,7 @@ export default function Projects(): JSX.Element {
       <section id="project2">
         <DividerTop />
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-t from-black to-blue-800">
-          <div className="flex justify-center items-center bg-neutral-50 dark:bg-gray-800 shadow-lg rounded-xl w-4/6 h-auto">
+          <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-4/6 h-auto">
             <h1 className="text-blue-800 dark:text-neutral-50 p-6 sm:p-14 text-xl lg:text-4xl">
               Project - This is a placeholder
             </h1>
@@ -105,7 +105,7 @@ export default function Projects(): JSX.Element {
         <DividerTop />
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-b from-black to-blue-800">
           <div className="flex justify-center items-center bg-neutral-50 dark:bg-gray-800 shadow-lg rounded-xl w-4/6 h-auto">
-            <h1 className="text-blue-800 dark:text-neutral-50 p-6 sm:p-14 text-xl lg:text-4xl">
+            <h1 className="text-blue-800 dark:text-neutral-100 p-6 sm:p-14 text-xl lg:text-4xl">
               Project - This is a placeholder
             </h1>
           </div>
