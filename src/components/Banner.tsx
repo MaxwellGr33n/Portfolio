@@ -96,22 +96,20 @@ export default function Banner(): JSX.Element {
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
                     {navigation.map((item) => (
-                      <>
-                        <Link
-                          key={item.name}
-                          to={item.to}
-                          spy={true}
-                          smooth={true}
-                          offset={50}
-                          duration={500}
-                          onClick={() => {
-                            setMobileMenuOpen(false)
-                          }}
-                          className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-neutral-50 dark:bg-gray-900 dark:hover:bg-gray-950"
-                        >
-                          {item.name}
-                        </Link>
-                      </>
+                      <Link
+                        key={item.name}
+                        to={item.to}
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        onClick={() => {
+                          setMobileMenuOpen(false)
+                        }}
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-neutral-50 dark:bg-gray-900 dark:hover:bg-gray-950"
+                      >
+                        {item.name}
+                      </Link>
                     ))}
                     <a
                       href="https://drive.google.com/file/d/13WBy0HqH6rgxCJ6nVieAsLzeQ4xpwcc9/view?usp=share_link"
