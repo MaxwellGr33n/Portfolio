@@ -18,7 +18,7 @@ export default function Banner(): JSX.Element {
       <div className="flex justify-between items-center px-4 w-full">
         <a href="" className="pb-3 sm:pl-2">
           <img
-            src="src/assets/e6d71efbc20bbbc7b0e432993a454377-sticker.png"
+            src="e6d71efbc20bbbc7b0e432993a454377-sticker.png"
             alt="Max Green"
             height="60"
             width="60"
@@ -77,7 +77,7 @@ export default function Banner(): JSX.Element {
               <div className="flex items-center justify-between">
                 <a href="" className="-m-1.5 p-1.5">
                   <img
-                    src="src/assets/e6d71efbc20bbbc7b0e432993a454377-sticker.png"
+                    src="e6d71efbc20bbbc7b0e432993a454377-sticker.png"
                     height="60px"
                     width="60px"
                   ></img>

@@ -15,12 +15,7 @@ export default function Contact(): JSX.Element {
           >
             <div className="bg-neutral-50 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden">
               <div className="flex justify-center px-3 pt-2">
-                <img
-                  src="src/assets/mail.svg"
-                  alt="Email"
-                  height="90%"
-                  width="90%"
-                />
+                <img src="mail.svg" alt="Email" height="90%" width="90%" />
               </div>
               <p className="text-center text-sm sm:text-md dark:text-neutral-50">
                 Email
@@ -35,7 +30,7 @@ export default function Contact(): JSX.Element {
             <div className="bg-neutral-50 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden">
               <div className="flex justify-center px-3 pt-2">
                 <img
-                  src="src/assets/linkedin.svg"
+                  src="linkedin.svg"
                   alt="LinkedIn"
                   height="90%"
                   width="90%"

@@ -29,11 +29,7 @@ export default function Projects(): JSX.Element {
             rel="noopener noreferrer"
           >
             <div className="w-[40px] md:w-[52px]">
-              <img
-                src="src/assets/github-mark.svg"
-                height="auto"
-                width="auto"
-              />
+              <img src="github-mark.svg" height="auto" width="auto" />
             </div>
           </a>
         </div>
@@ -77,11 +73,7 @@ export default function Projects(): JSX.Element {
             rel="noopener noreferrer"
           >
             <div className="w-[40px] md:w-[52px]">
-              <img
-                src="src/assets/github-mark.svg"
-                height="auto"
-                width="auto"
-              />
+              <img src="github-mark.svg" height="auto" width="auto" />
             </div>
           </a>
         </div>
@@ -125,11 +117,7 @@ export default function Projects(): JSX.Element {
             rel="noopener noreferrer"
           >
             <div className="w-[40px] md:w-[52px]">
-              <img
-                src="src/assets/github-mark.svg"
-                height="auto"
-                width="auto"
-              />
+              <img src="github-mark.svg" height="auto" width="auto" />
             </div>
           </a>
         </div>
