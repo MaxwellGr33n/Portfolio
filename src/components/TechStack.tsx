@@ -91,7 +91,7 @@ export default function TechStack(): JSX.Element {
             </div>
           </a>
         </div>
-        <div className="self-center max-w-2xl pl-4 sm:pl-10">
+        <div className="self-center max-w-lg md:max-w-2xl pl-4 sm:pl-10">
           <h1 className="text-blue-800 dark:text-neutral-50 font-semibold text-2xl sm:text-5xl 2xl:text-6xl max-w-fit">
             Current tech stack.
           </h1>
