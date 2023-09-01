@@ -19,7 +19,7 @@ export default function TechStack(): JSX.Element {
                   width="85%"
                 />
               </div>
-              <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl sm:pt-1 2xl:pt-2 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
+              <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl sm:pt-1 2xl:pt-2 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
                 TypeScript
               </p>
             </div>
@@ -29,7 +29,7 @@ export default function TechStack(): JSX.Element {
               <div className="flex justify-center px-3 pt-3 lg:pt-5">
                 <img src="react.svg" alt="React" height="90%" width="90%" />
               </div>
-              <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl pt-1 sm:p-1.5 md:pt-2 2xl:pt-5 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
+              <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl pt-1 sm:p-1.5 md:pt-2 2xl:pt-5 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
                 React
               </p>
             </div>
@@ -43,7 +43,7 @@ export default function TechStack(): JSX.Element {
               <div className="flex justify-center px-3 pt-3">
                 <img src="vite.svg" alt="Vite" height="90%" width="90%" />
               </div>
-              <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl lg:pt-1 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
+              <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl lg:pt-1 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
                 Vite
               </p>
             </div>
@@ -57,7 +57,7 @@ export default function TechStack(): JSX.Element {
               <div className="flex justify-center px-3 pt-3 lg:pt-4">
                 <img src="nextjs.svg" alt="Next.js" height="85%" width="85%" />
               </div>
-              <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl sm:pt-1 2xl:pt-3 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
+              <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl sm:pt-1 2xl:pt-3 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
                 Next.js 13
               </p>
             </div>
@@ -71,7 +71,7 @@ export default function TechStack(): JSX.Element {
               <div className="flex justify-center px-3 pt-3">
                 <img src="node.svg" alt="Node.js" height="90%" width="90%" />
               </div>
-              <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
+              <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
                 Node.js
               </p>
             </div>
@@ -85,7 +85,7 @@ export default function TechStack(): JSX.Element {
               <div className="flex justify-center px-3 pt-3">
                 <img src="mongo.svg" alt="MonoDB" height="90%" width="90%" />
               </div>
-              <p className="text-center text-transparent font-semibold text-sm sm:text-md xl:text-xl lg:pt-1 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
+              <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl lg:pt-1 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
                 MongoDB
               </p>
             </div>
